@@ -2,6 +2,10 @@ define(function (require) {
   // we need to load the css ourselves
   require('plugins/kibi_horizontal_bar_vis/kibi_horizontal_bar_vis.less');
 
+  require('angular-nvd3');
+
+  require('angularjs-nvd3-directives');
+
   // we also need to load the controller and used by the template
   require('plugins/kibi_horizontal_bar_vis/kibi_horizontal_bar_vis_controller');
 
